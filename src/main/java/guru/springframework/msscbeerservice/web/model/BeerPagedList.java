@@ -1,4 +1,4 @@
-package guru.springframework.msscbeerservice.model;
+package guru.springframework.msscbeerservice.web.model;
 
 import java.util.List;
 
