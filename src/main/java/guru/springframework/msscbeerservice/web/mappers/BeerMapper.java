@@ -9,8 +9,8 @@ import guru.springframework.msscbeerservice.web.model.BeerDto;
 @Mapper(uses= {DateMapper.class})
 public interface BeerMapper {
 	
-	BeerDto Beerdtobeer(Beer beer);
+	BeerDto BeertoBeerDto (Beer beer);
 	
-	Beer Beertodto(BeerDto dto);
+	Beer BeerdtoToBeer(BeerDto dto);
 
 }
